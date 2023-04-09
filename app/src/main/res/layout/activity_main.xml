@@ -5,23 +5,31 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:gravity="center"
+    android:padding="50dp"
     android:background="#FFFFFF">
 
-
-
-    <TextView
-        android:id="@+id/textView"
-        android:layout_width="wrap_content"
+    <EditText
+        android:id="@+id/etMessage"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Yo soy Ironman"
-        android:textSize="24sp"
-        android:gravity="center" />
+        android:hint="@string/hint_message"
+        android:importantForAutofill="no"
+        android:minHeight="48dp"/>
 
     <Button
         android:id="@+id/btnPlay"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
-        android:text="Reproducir" />
+        android:layout_margin="16dp"
+        android:text="@string/btn_play" />
+
+    <TextView
+        android:id="@+id/tvStatus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/tv_text"
+        android:textSize="24sp"
+        android:layout_gravity="center" />
 
 </LinearLayout>

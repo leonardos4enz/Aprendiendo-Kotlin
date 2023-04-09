@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">YoSoyIronman</string>
+    <string name="tts_isEmpty">¡Escribe algo!</string>
+    <string name="tts_active">Technoblade never dies</string>
+    <string name="tts_disabled">No disponible:(</string>
+    <string name="btn_play">Reproducir</string>
+    <string name="hint_message">Escribe algo</string>
+    <string name="tv_text">Yo soy Ironman</string>
 </resources>
